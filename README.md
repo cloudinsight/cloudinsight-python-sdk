@@ -29,7 +29,7 @@ statsd.increment('page.views')
 # Increment a counter by value you specified.
 statsd.increment('page.views', 100)
 
-# Record a metric at a sample rate 50%(eg. 52% of the time the metirc will be recorded).
+# Record a metric at a sample rate 50%(eg. 50% of the time the metirc will be recorded).
 statsd.gauge('users.online', 123, sample_rate=0.5)
 statsd.increment('page.views', sample_rage=0.5)
 
