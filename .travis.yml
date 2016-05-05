@@ -12,3 +12,5 @@ install:
   - pip install tox
 script:
   - tox -e $TOX_ENV
+notifications:
+  webhooks: https://hook.bearychat.com/=bw6L5/travis/4e45e595fd0badd5029a4d680bf71e72
