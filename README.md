@@ -1,4 +1,4 @@
-Cloud Insight Python SDK
+Cloudinsight Python SDK
 ================
 
 [![Build Status](https://travis-ci.org/cloudinsight/cloudinsight-python-sdk.svg?branch=master)](https://travis-ci.org/cloudinsight/cloudinsight-python-sdk)
@@ -7,12 +7,15 @@ Installation
 ------------
 To install from pip:
 
-    pip install -i http://pypi.oneapm.com/simple --trusted-host pypi.oneapm.com --upgrade cloudinsight
+```shell
+pip install -i http://pypi.oneapm.com/simple --trusted-host pypi.oneapm.com --upgrade cloudinsight
+```
 
 To install from source:
 
-    python setup.py install
-
+```shell
+python setup.py install
+```
 
 Quick Start Guide
 -----------------
